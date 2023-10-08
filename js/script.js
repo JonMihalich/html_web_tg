@@ -1,5 +1,4 @@
 // Получаем ссылки на HTML-элементы
-let tg = window.Telegram.WebApp;
 const noteForm = document.getElementById('noteForm');
 const noteTitle = document.getElementById('noteTitle');
 const noteContent = document.getElementById('noteContent');
@@ -42,7 +41,7 @@ function addNote() {
   notes.push(newNote);
 
   // Сохраняем заметки в localStorage
-  localStorage.setItem('notes', JSON.stringify(notes));
+  localStorage.setItem('notes', db.py.BotDB.add_record());
 
   // Очищаем поля формы и обновляем список заметок
   noteTitle.value = '';

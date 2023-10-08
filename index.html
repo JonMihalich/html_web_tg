@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Веб Приложение</title>
-    <style>
-        body {
-            text-align: center; /* Выравнивание содержимого по центру */
-        }
-        button {
-            margin: 10px; /* Отступ между кнопками */
-        }
-    </style>
+    <title>Выбери Путь</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
 </head>
 <body>
-    <h1>Добро пожаловать в мое веб-приложение</h1>
-    <a href="index2.html"><button>Заметки</button></a>
-    <button id="calendarButton">Календарь</button>
+    <div class="container">
+        <h1 class="text-center">Мой WebApp</h1>
+        <div>
+            <a href="index2.html"><button class="btn btn-success mt-3" type="submit">
+              Заметки
+            </button></a>
+        </div>
+        <div>
+            <a href="calendar.html"><button class="btn btn-success mt-3" type="submit">
+              Календарь
+            </button></a>
+        </div>
+    </div>
 </body>
 </html>

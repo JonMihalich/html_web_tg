@@ -29,9 +29,13 @@ form {
 }
 
 .btn.btn-success.mt-3 {
-  width: 30%;
-  margin: auto;
+width: 70%;
+margin: auto;
+display: block;
+text-align: center;
 }
+
+
 .note {
   display: flex;
   flex-direction: column;
