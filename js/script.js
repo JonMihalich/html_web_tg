@@ -1,4 +1,5 @@
 // Получаем ссылки на HTML-элементы
+let tg = window.Telegram.WebApp;
 const noteForm = document.getElementById('noteForm');
 const noteTitle = document.getElementById('noteTitle');
 const noteContent = document.getElementById('noteContent');
